@@ -1,0 +1,39 @@
+﻿@charset "UTF-8";
+
+/*Body Style*/
+body {
+    background-color: green;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p.cis302 {
+    color: white;
+    text-align: center;
+}
+/*Table Styles*/
+table {
+    border: 1px solid black;
+    width: 600px;
+    background-color: lightgreen;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr > td > ol > li > a {
+    text-decoration: none;
+    color: black;
+}
+/*Image Style*/
+img.mypic {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 3px solid green;
+}
